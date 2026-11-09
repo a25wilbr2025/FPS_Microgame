@@ -467,7 +467,7 @@ MonoBehaviour:
   CapsuleHeightCrouching: 0.9
   CrouchingSharpness: 15
   FootstepSfxFrequency: 0.25
-  FootstepSfxFrequencyWhileSprinting: 0.255
+  FootstepSfxFrequencyWhileSprinting: 0.27
   JumpSfx: {fileID: 8300000, guid: 13b59a14d34add64d84a623867546ff1, type: 3}
   LandSfx: {fileID: 8300000, guid: d0f1afed8fa916244af6ca73579ded67, type: 3}
   FallDamageSfx: {fileID: 8300000, guid: ef980d09b569380459e609fe90ef1db2, type: 3}
