@@ -1308,11 +1308,18 @@ MonoBehaviour:
   states:
   - Name: OutdoorWindLow
     Source: {fileID: 750602310}
-    Snapshot: {fileID: 0}
+    Snapshot: {fileID: 8692855557630644648, guid: fcc71635aab95ff4fbdf1880bf2afa2f,
+      type: 2}
     Volume: 1
   - Name: OutdoorWindHigh
     Source: {fileID: 1025005537}
-    Snapshot: {fileID: 0}
+    Snapshot: {fileID: 8692855557630644648, guid: fcc71635aab95ff4fbdf1880bf2afa2f,
+      type: 2}
+    Volume: 1
+  - Name: Indoor
+    Source: {fileID: 0}
+    Snapshot: {fileID: 5113893181827059304, guid: fcc71635aab95ff4fbdf1880bf2afa2f,
+      type: 2}
     Volume: 1
   startingState: 0
   transitionDuration: 2
