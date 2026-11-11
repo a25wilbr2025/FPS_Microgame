@@ -1,23 +1,33 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1233149941 &2606364124242776808
+--- !u!1233149941 &-9208898976925220783
 AudioContainerElement:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SFX_Laser_Complex-003_{2606364124242776808}
-  m_AudioClip: {fileID: 8300000, guid: 3c2649116df891e429cdc54e9d2a1f7c, type: 3}
+  m_Name: Laservapenljud 2_{-9208898976925220783}
+  m_AudioClip: {fileID: 8300000, guid: c44e004b3ffe91f49b447de339c01c57, type: 3}
   m_Volume: 0
   m_Enabled: 1
---- !u!1233149941 &4185945468529437836
+--- !u!1233149941 &-1894991638671674841
 AudioContainerElement:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SFX_Laser_Complex-002_{4185945468529437836}
-  m_AudioClip: {fileID: 8300000, guid: 3b1f930562cd6c944941d895b353564c, type: 3}
+  m_Name: Laservapenljud 3_{-1894991638671674841}
+  m_AudioClip: {fileID: 8300000, guid: 749162abda80d7746927d75fb1912ebf, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1374300764677337332
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: laservapenljud 1_{-1374300764677337332}
+  m_AudioClip: {fileID: 8300000, guid: ab49dea80117896468b94107afa797d7, type: 3}
   m_Volume: 0
   m_Enabled: 1
 --- !u!1307931743 &6418180475301049370
@@ -36,10 +46,10 @@ AudioRandomContainer:
   m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
   m_LoopCountRandomizationRange: {x: 0, y: 0}
   m_Elements:
-  - {fileID: 7339471163616568130}
-  - {fileID: 4185945468529437836}
-  - {fileID: 2606364124242776808}
-  m_AvoidRepeatingLast: 1
+  - {fileID: -1374300764677337332}
+  - {fileID: -9208898976925220783}
+  - {fileID: -1894991638671674841}
+  m_AvoidRepeatingLast: 0
   m_PlaybackMode: 2
   m_TriggerMode: 0
   m_AutomaticTriggerMode: 1
@@ -48,13 +58,3 @@ AudioRandomContainer:
   m_PitchRandomizationEnabled: 1
   m_AutomaticTriggerTimeRandomizationEnabled: 0
   m_LoopCountRandomizationEnabled: 0
---- !u!1233149941 &7339471163616568130
-AudioContainerElement:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SFX_Laser_Complex-001_{7339471163616568130}
-  m_AudioClip: {fileID: 8300000, guid: e3fdb3d6e1db6c04d8f1441f41a8073e, type: 3}
-  m_Volume: 0
-  m_Enabled: 1
